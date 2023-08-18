@@ -15,6 +15,14 @@ p {
     color: #e48320;
 }
 
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    border-bottom: 2px solid #e48320;
+}
+
 /* UNDER CONSTRUCTION CSS */
 
 .cunstruction-banner {
@@ -29,7 +37,7 @@ p {
     padding-top: 250px;
 }
 
-/* Navigationbar */
+/* Navigationbar - Desktop */
 
 .nav-desktop-container {
     display: flex;
@@ -85,6 +93,37 @@ p {
     transition: ease-in-out 0.15s;
 }
 
+/* Navigration Extension */
+
+.back-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    border: 2px solid #e48320;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(121, 121, 121, 0.5);
+}
+
+.back-up img {
+    width: 100%;
+}
+
+.back-up-invisible {
+    display: none;
+}
+
+.back-up-visible {
+    display: block;
+}
+
+.back-up:hover {
+    background-color: #e48320;
+    border: 2px solid #525252;
+    transition: ease-in-out 0.2s;
+}
+
 /* Header Section */
 
 /* Banner */
@@ -109,12 +148,118 @@ p {
     padding-top: 250px;
 }
 
+/* About Me */
 
+.about-me {
+    width: 80%;
+    margin: 50px auto;
+}
 
-/* some sort of addition? */
+.aboutme-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutme-item {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutme-item img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
 
 /* Main Section */
 
+main {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 /* CV */
 
+.main {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.main p {
+    margin: 5px 0;
+}
+
+.cv {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(121, 121, 121, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cv img {
+    height: 220px;
+}
+
+.cv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv h5 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.cv h4 {
+    font-size: 25px;
+    border-bottom: 2px solid #e48320;
+}
+
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
 /* Footer Section */
+
+footer {
+    background-color: #525252;
+    height: 80px;
+}
+
+.footer{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p, a {
+    color: #FFF;
+}
+
+#footer-heart {
+    width: 35px;
+}
+
+.footer-icons {
+    display: inline;
+}
+
+.footer-icons img {
+    width: 40px;
+    margin: 8px;
+}
+
+#github-icon {
+    width: 40px;
+}
