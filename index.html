@@ -21,7 +21,7 @@
 
     <nav class="nav-desktop-container" id="desktop-nav">
       <a href="#">
-        <img src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+        <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
       </a>
       <ul>
         <li><a href="#" id="active-site">About Me</a></li>
@@ -31,6 +31,24 @@
     </nav>
 
     <!-- Navigationbar - Mobile -->
+
+    <nav id="mobile-nav">
+      <div class="nav-mobile-container">
+        <a href="#">
+          <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+        </a>
+        <a href="#fold" id="fold-menu-button">
+          <img src="./ressources/pictures/burgerMenu.png" alt="Burger Menu Icon">
+        </a>
+      </div>
+      <div id="nav-mobile-items" style="display: none;">
+        <ul>
+          <li><a href="#" id="active-site">About Me</a></li>
+          <li><a href="./underConstruction.html">Projects</a></li>
+          <li><a href="./underConstruction.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Navigration Extension -->
 
@@ -103,7 +121,7 @@
         <div class="cv">
           <div class="cv-container">
             <img src="./ressources/pictures/DanelRoelleOerum.jpeg" alt="A picture of me">
-            <div>
+            <div class="contact-information">
               <h5>Danel Rølle Ørum</h5>
               <div class="cv-grid">
                 <p>E-Mail</p>
