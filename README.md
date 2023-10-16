@@ -6,3 +6,4 @@
  + About me page with cv and some certifications that I have made
  + A site with some Projects I have made
  + Contact site, where, how and why to contact me
+ + Info Site with some inforamtion

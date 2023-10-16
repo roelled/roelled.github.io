@@ -16,18 +16,46 @@
       </head>
     <body>
         
-    <!-- Navigationbar -->
+    <!-- Navigationbar - Desktop -->
 
     <nav class="nav-desktop-container" id="desktop-nav">
+      <a href="#">
+        <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+      </a>
+      <ul>
+        <li><a href="./index.html">About Me</a></li>
+        <li><a href="#" id="active-site">Projects</a></li>
+        <li><a href="#" id="active-site">Contact</a></li>
+        <li><a href="./info.html">Info</a></li>
+      </ul>
+    </nav>
+
+    <!-- Navigationbar - Mobile -->
+
+    <nav id="mobile-nav">
+      <div class="nav-mobile-container">
         <a href="#">
-          <img src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+          <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
         </a>
+        <a href="#fold" id="fold-menu-button">
+          <img src="./ressources/pictures/burgerMenu.png" alt="Burger Menu Icon">
+        </a>
+      </div>
+      <div id="nav-mobile-items" style="display: none;">
         <ul>
           <li><a href="./index.html">About Me</a></li>
           <li><a href="#" id="active-site">Projects</a></li>
           <li><a href="#" id="active-site">Contact</a></li>
+          <li><a href="./info.html">Info</a></li>
         </ul>
-      </nav>
+      </div>
+    </nav>
+
+    <!-- Navigation Extension -->
+
+    <div class="back-up" id="back-up">
+      <a href="#"><img src="./ressources/pictures/arrowUp.jpg" alt="Arrow Up Icon"></a>
+    </div>
 
     <!-- Header Section -->
 
@@ -48,6 +76,27 @@
         <p>Welcome to my mind!</p>
         <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
     </main>
+
+ <!-- Footer Section -->
+
+  <footer>
+
+    <div class="footer">
+    
+      <!-- Outro -->
+
+      <p>Made with <img id="footer-heart" src="./ressources/pictures/heart.png" alt="Heart png"> by Danel Rølle Ørum</p>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/danel-r%C3%B8lle-%C3%B8rum/" target="_blank"><img src="./ressources/pictures/linkedin.png" alt="LinkedIn Icon"></a>
+        <a href="https://github.com/roelled" target="_blank"><img id="github-icon" src="./ressources/pictures/github.png" alt="GitHub Icon"></a>
+      </div>
+    
+      <!-- Logo Credit -->
+    
+      <p><a href="https://www.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_36332625.htm#&position=42&from_view=author" target="_blank">Image by xadartstudio</a> on Freepik</p>
+    </div>
+
+  </footer>
 
 
     <!-- Scripts Section -->
