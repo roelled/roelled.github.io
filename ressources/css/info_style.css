@@ -3,3 +3,8 @@
 main {
     background-color: rgb(104, 101, 101);
 }
+
+/* Banner Section */
+.cunstruction-banner {
+    background-image: url(../pictures/loveBanner.jpg);
+}
