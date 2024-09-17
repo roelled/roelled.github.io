@@ -3,7 +3,7 @@
 //=====================================//
 
 // Set the date we're counting down to
-const countDownDate = new Date("Dec 19, 2023 18:00:00").getTime();
+const countDownDate = new Date("Dec 24, 2024 18:00:00").getTime();
 
 // Update the count down every 1 second
 const x = setInterval(function() {
