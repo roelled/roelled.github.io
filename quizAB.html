@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AB Quiz</title>
+    
+        <!-- Meta Tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./ressources/css/style.css">
+        <link rel="stylesheet" href="./ressources/css/quizAB_style.css">
+      </head>
+    <body>
+        
+    <!-- Navigationbar - Desktop -->
+
+    <nav class="nav-desktop-container" id="desktop-nav">
+      <a href="./index.html">
+        <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+      </a>
+      <ul>
+        <li><a href="./index.html">About Me</a></li>
+        <li><a href="#" id="active-site">Projects</a></li>
+        <li><a href="#" id="active-site">Contact</a></li>
+        <li><a href="./info.html">Info</a></li>
+      </ul>
+    </nav>
+
+    <!-- Navigationbar - Mobile -->
+
+    <nav id="mobile-nav">
+      <div class="nav-mobile-container">
+        <a href="./index.html">
+          <img class="logo" src="./ressources/pictures/logo.png" alt="Danel's beatiful face">
+        </a>
+        <a href="#fold" id="fold-menu-button">
+          <img src="./ressources/pictures/burgerMenu.png" alt="Burger Menu Icon">
+        </a>
+      </div>
+      <div id="nav-mobile-items" style="display: none;">
+        <ul>
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="#" id="active-site">Projects</a></li>
+          <li><a href="#" id="active-site">Contact</a></li>
+          <li><a href="./info.html">Info</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navigation Extension -->
+
+    <div class="back-up" id="back-up">
+      <a href="#"><img src="./ressources/pictures/arrowUp.jpg" alt="Arrow Up Icon"></a>
+    </div>
+
+    <!-- Header Section -->
+
+    <header>
+
+        <!-- Banner -->
+        <div class="banner">
+            <div id="banner-overlay">
+                <h1>Administrationbachelor M1 <span class="blue">Quiz</span></h1>
+            </div>
+        </div>
+    
+    </header>
+
+        <!-- Main Section -->
+
+    <main>
+        
+        <!-- Quiz Section -->
+
+        <div class="quiz-container">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="answer-btn">Answer 1</button>
+                <button class="answer-btn">Answer 2</button>
+                <button class="answer-btn">Answer 3</button>
+                <button class="answer-btn">Answer 4</button>
+            </div>
+            <div class="score-container">
+                <button class="next-btn" id="next-btn">Next</button>
+                <button class="start-btn" id="start-btn">Start</button>
+                <p id="score-counter">SCORE</p>
+            </div>
+            <h3 id="explanation">Here spawns the explanation.</h3>
+        </div>
+
+    </main>
+
+ <!-- Footer Section -->
+
+  <footer>
+
+    <div class="footer">
+    
+      <!-- Outro -->
+
+      <p>Made with <img id="footer-heart" src="./ressources/pictures/heart.png" alt="Heart png"> by Danel, Didde og Sara</p>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/danel-r%C3%B8lle-%C3%B8rum/" target="_blank"><img src="./ressources/pictures/linkedin.png" alt="LinkedIn Icon"></a>
+        <a href="https://github.com/roelled" target="_blank"><img id="github-icon" src="./ressources/pictures/github.png" alt="GitHub Icon"></a>
+      </div>
+    </div>
+
+  </footer>
+
+
+    <!-- Scripts Section -->
+    <script type="text/javascript" src="./ressources/scripts/navbar.js"></script>
+    <script type="text/javascript" src="./ressources/scripts/quizAB.js"></script>
+
+    </body>
+</html>

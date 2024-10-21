@@ -1,0 +1,87 @@
+/* Universal */
+
+
+
+/* Header Section */
+
+/* Banner Section */
+
+.banner {
+    height: 300px;
+    text-align: center;
+}
+
+.banner h1 {
+    padding-top: 150px;
+}
+
+/* Main Section */
+
+/* Quiz Section */
+
+.quiz-container {
+    background-color: #52525268;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.answer-btn {
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 7px;
+}
+
+.answer-btn:disabled{
+    cursor: no-drop;
+    color: black;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-container p {
+    font-style: italic;
+    font-weight: bold;
+    display: none;
+}
+
+.next-btn {
+    padding: 5px;
+    border-radius: 7px;
+    width: 80px;
+    height: 35px;
+    display: none;
+}
+
+.start-btn {
+    padding: 5px;
+    border-radius: 7px;
+    width: 80px;
+    height: 35px;
+}
+
+#explanation {
+    display: none;
+}
+
+.correct {
+    background: rgba(0, 234, 19, 0.53);
+}
+
+.incorrect {
+    background: rgba(218, 0, 0, 0.63);
+}
+
+@media only screen and (max-width: 850px) {
+    .quiz-container h2 {
+        font-size: medium;
+        margin-top: 0;
+    }
+}

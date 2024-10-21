@@ -11,8 +11,8 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
-.orange {
-    color: #e48320;
+.blue {
+    color: #0089d9;
 }
 
 .heading {
@@ -20,7 +20,7 @@ p {
 }
 
 .heading h2 {
-    border-bottom: 2px solid #e48320;
+    border-bottom: 2px solid #0089d9;
 }
 
 /* UNDER CONSTRUCTION CSS */
@@ -85,16 +85,16 @@ p {
 }
 
 #active-site {
-    border-bottom: 2px solid #e48320;
+    border-bottom: 2px solid #0089d9;
 }
 
 .nav-desktop-container ul li a:hover {
-    color: #e48320;
-    border-bottom: 2px solid #e48320;
+    color: #0089d9;
+    border-bottom: 2px solid #0089d9;
     transition: ease-in-out 0.15s;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 657px) {
 
     .nav-desktop-container {
         display: none;
@@ -167,7 +167,7 @@ p {
     display: block;
 }
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 658px) {
 
     .nav-mobile-container {
         display: none;
@@ -182,7 +182,7 @@ p {
     bottom: 20px;
     right: 20px;
     border-radius: 5px;
-    border: 2px solid #e48320;
+    border: 2px solid #0089d9;
     width: 35px;
     height: 35px;
     background-color: rgba(121, 121, 121, 0.5);
@@ -201,7 +201,7 @@ p {
 }
 
 .back-up:hover {
-    background-color: #e48320;
+    background-color: #0089d9;
     border: 2px solid #525252;
     transition: ease-in-out 0.2s;
 }
@@ -297,22 +297,21 @@ main {
 }
 
 .cv {
-    width: 70%;
+    width: 100%;
     max-width: 950px;
     margin: auto;
-    background-color: rgba(121, 121, 121, 0.5);
-    padding: 30px;
-    border-radius: 10px;
 }
 
 .cv img {
-    height: 220px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .cv-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .cv h5 {
@@ -322,13 +321,96 @@ main {
 
 .cv h4 {
     font-size: 25px;
-    border-bottom: 2px solid #e48320;
+    border-bottom: 2px solid #0089d9;
 }
 
-.cv-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+.cv-sidebar {
+    width: 33%;
+    background-color: #242935;
+    color: #FFF;
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cv-sidebar-mid-head {
+    opacity: 0.5;
+}
+
+.cv-sidebar-mid-container {
+    padding-bottom: 15px;
+}
+
+.cv-sidebar h6 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    
+}
+
+.cv-sidebar-top {
+    text-align: center;
+    border-bottom: 2px solid #0089d9;
+}
+
+.percentbar-container {
+    width: 100%;
+    background-color: #525252;
+    border-radius: 5px;
+    height: 5px;
+    margin-bottom: 9px;
+}
+
+.percentbar {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+#p100 {
+    width: 100%;
+}
+
+#p80 {
+    width: 80%;
+}
+
+#p75 {
+    width: 75%;
+}
+
+#p50 {
+    width: 50%;
+}
+
+#p25 {
+    width: 25%;
+}
+
+.cv-mainbar {
+    width: 66%;
+    padding: 30px;
+    border-radius: 0pc 10px 10px 0px;
+    background-color: rgba(121, 121, 121, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cv-mainbar h4 {
+    margin-bottom: 15px;
+}
+
+.cv-mainbar h6 {
+    margin: 5px auto 5px auto;
+    opacity: 0.5;
+}
+
+.cv-mainbar ul {
+    margin: 5px auto 5px auto;
+    padding-left: 25px;
+}
+
+.cv-mainbar h5 {
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -388,7 +470,7 @@ footer {
 @media only screen and (max-width: 850px) {
 
     footer {
-        height: 105px;
+        height: 70px;
         padding: 15px;
     }
 
